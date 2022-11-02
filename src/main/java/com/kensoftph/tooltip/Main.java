@@ -31,9 +31,9 @@ public class Main extends Application {
         Tooltip tooltip = new Tooltip();
         tooltip.setText("Save the image");
         tooltip.setGraphic(iv);
-        tooltip.setStyle("-fx-background-color: black;"+
-                "-fx-text-fill: white");
+        tooltip.setStyle("-fx-background-color: black;"+"-fx-text-fill: white");
         btn.setTooltip(tooltip);
+        //Tooltip.install(btn, tooltip);
 
         Scene scene = new Scene(layout, 200, 200);
         stage.setScene(scene);
